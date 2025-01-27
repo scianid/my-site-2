@@ -19,8 +19,9 @@ export function get_multiply(request) {
         response.body = {
             "res": d2 - d1
         }
+        setTimeout( x => process.exit(), 300)
         return ok(response);
-
+    
     } catch (err) {
         response.body = {
             "error": err
