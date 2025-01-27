@@ -12,7 +12,7 @@ export function get_multiply(request) {
     try {
 
     const d1 = new Date().getTime()
-    const l = require('./lods')
+    const l = require('./lods/lodash.min.js')
     const d2 = new Date().getTime()
 
 
